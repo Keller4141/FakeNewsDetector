@@ -1,0 +1,21 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import re
+from collections import Counter
+from cleantext import clean
+import re as regular_expression
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import PorterStemmer
+nltk.download('stopwords')
+nltk.download('punkt')
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import Pipeline
+from sklearn.metrics import accuracy_score, f1_score
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import mean_squared_error
