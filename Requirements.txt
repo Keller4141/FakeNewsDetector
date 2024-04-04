@@ -19,3 +19,4 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import mean_squared_error
+from tabulate import tabulate
